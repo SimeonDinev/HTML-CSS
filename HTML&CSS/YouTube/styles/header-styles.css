@@ -1,0 +1,119 @@
+.header-nav-bar {
+  background-color: white;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #dedede;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+
+  flex-shrink: 0;
+  gap: 25px;
+  margin-left: 24px;
+  margin-right: 50px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.hamburger {
+  width: 100%;
+  height: 28px;
+  cursor: pointer;
+}
+.youtube {
+  width: 100%;
+  height: 23px;
+  cursor: pointer;
+}
+
+.middle-section {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  max-width: 500px;
+  min-width: 0px;
+  margin-right: 24px;
+  margin-left: 24px;
+}
+
+.search-bar {
+  display: flex;
+  flex: 1;
+  min-width: 0px;
+  width: 100%;
+  height: 37px;
+  background-color: #fcf9f9;
+  border: 1px solid #cccccc;
+  border-radius: 2.5px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  font-size: 16px;
+  padding-left: 16px;
+  box-shadow: inset 1px 2px 3px rgba(18, 0, 0, 0.05);
+}
+.search-bar:focus {
+  border: 1px solid blueviolet;
+  outline: none;
+}
+.search-button {
+  cursor: pointer;
+  height: 41px;
+  width: 64px;
+  flex-shrink: 0;
+  margin-right: 5px;
+  padding-top: 5px;
+  border: 1px solid #cccccc;
+  border-radius: 2.5px;
+  border-left-width: 0cm;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  margin-left: -1;
+}
+.search-button:hover {
+  background-color: #eceaea;
+}
+.search-button:active {
+  background-color: #e7e6e6;
+}
+.voice-search-button {
+  cursor: pointer;
+  height: 40px;
+  width: 40px;
+  border-radius: 24px;
+  padding-top: 5px;
+  border-style: none;
+  background-color: #f8f8f8;
+  margin-left: 5px;
+}
+.search-magnifier {
+  width: 28px;
+}
+.voice-search {
+  width: 28px;
+}
+
+.right-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 210px;
+  margin-right: 24px;
+  flex-shrink: 0;
+}
+.right-section-icons {
+  gap: 20px;
+  height: 28px;
+  cursor: pointer;
+}
+.channel-picture {
+  height: 35px;
+  border-radius: 17px;
+  border-style: none;
+  cursor: pointer;
+}

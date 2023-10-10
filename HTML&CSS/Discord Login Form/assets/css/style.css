@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Noto+Sans+NKo+Unjoined:wght@400;500;600;700&family=Raleway:wght@300&family=Roboto:ital,wght@0,100;0,400;0,500;1,700&display=swap");
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  overflow: hidden;
+  font-family: Helvetica, sans-serif;
+
+  background-image: url(../images/discord-login-background-img2.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container {
+  background-color: #313338;
+  border-radius: 5px;
+  height: 408px;
+  width: 784px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding: 0;
+  letter-spacing: 0.3px;
+  box-shadow: -2px 2px 4px hsla(0, 0%, 6%, 0.123);
+  border-style: none;
+}
+
+.left-side {
+  height: 100%;
+  flex: 1.5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 35px;
+}
+.left-side > h1 {
+  font-size: 24px;
+  color: #f2f3f5;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+.left-side p {
+  font-size: 14px;
+  color: #b5bac1;
+  margin-top: 0;
+}
+.left-side label {
+  color: #b5bac1;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+form {
+  margin-top: 10px;
+}
+.left-side a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #00a8fc;
+}
+.left-side input {
+  color: white;
+  border-radius: 3px;
+  box-sizing: border-box;
+  font-size: 18px;
+  line-height: 24px;
+  height: 37px;
+  padding-left: 8px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  width: 100%;
+  background-color: #1e1f22;
+  border: none;
+}
+#password {
+  margin-bottom: 3px;
+}
+#login {
+  background-color: #5865f2;
+  color: #fefeff;
+  margin-top: 25px;
+  margin-bottom: 8px;
+}
+.left-side span {
+  color: red;
+}
+.left-side label {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.right-side {
+  height: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.qr-code-div > img {
+  border-radius: 5px;
+  height: 200px;
+  width: 200px;
+  margin-top: 40px;
+}
+.text-div > h2 {
+  font-size: 24px;
+  color: #f2f3f5;
+  align-items: center;
+  text-align: center;
+}
+.text-div > p {
+  text-align: center;
+  color: #acb1b8;
+}

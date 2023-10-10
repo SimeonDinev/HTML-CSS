@@ -1,0 +1,30 @@
+.side-nav-bar {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 60px;
+  width: 80px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.sidebar-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 85px;
+}
+.sidebar-icons:hover {
+  background-color: rgb(244, 244, 244);
+}
+.sidebar-icons img {
+  height: 30px;
+}
+.sidebar-icons div {
+  margin-top: 5px;
+  padding-left: 2px;
+  padding-right: 2px;
+  font-size: 11px;
+  font-family: Roboto, sans-serif;
+}
